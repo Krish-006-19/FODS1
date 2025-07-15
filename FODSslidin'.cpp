@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
     srand(time(NULL));
-    int arr[1000], sum = 0, max_val = INT_MIN, idx = 0, n=10;
+    int arr[1000], sum = 0, max_val = INT_MIN, idx = 0, n = 10;
 
     for (int i = 0; i < 1000; i++) {
         arr[i] = rand();
@@ -18,7 +18,7 @@ int main() {
 
     max_val = sum;
 
-    for (int i = 1; i < 1000-n+1; i++) {
+    for (int i = 1; i < 1000 - n + 1; i++) {
         sum += arr[i + n -1] - arr[i - 1];
 
         if (sum > max_val) {
