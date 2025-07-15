@@ -8,13 +8,12 @@ int main() {
     srand(time(NULL));
     int arr[1000], sum = 0, max_val = INT_MIN, idx = 0, n = 10;
 
-    for (int i = 0; i < 1000; i++) {
+    for (int i = 0; i < 1000; i++) 
         arr[i] = rand();
-    }
+    
 
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) 
         sum += arr[i];
-    }
 
     max_val = sum;
 
