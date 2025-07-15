@@ -27,7 +27,7 @@ int main() {
         }
     }
 
-    cout << "The max value for consecutive 3 elements of the array is: " << max_val << " & the index of the last element is " << idx << endl;
+    cout << "The max value for consecutive 10 elements of the array is: " << max_val << " & the index of the last element is " << idx << endl;
 
     return 0;
 }
