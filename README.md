@@ -1,4 +1,4 @@
-                                            Assignment 1 FODS
+                                                 Assignment 1 FODS
 
 
 ![demo](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*0N8CVKix7OGfBDsgh9DzrQ.gif)
